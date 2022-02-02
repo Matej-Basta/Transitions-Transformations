@@ -6,4 +6,19 @@
   width: 50px;
   background-color: green;
   color: white;
+  transition: all linear 2s;
+}
+
+#exercise_fixed_box.change {
+  left: 90%;
+  top: 90%;
+}
+
+#exercise_bg_box {
+  padding: 2em;
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
 }
