@@ -21,4 +21,16 @@
   width: 100px;
   height: 100px;
   text-align: center;
+  transition: all ease 2s;
+}
+
+#exercise_bg_box.changed {
+  background-color: black;
+  color: red;
+  border: solid red 2px;
+  font-size: 2rem;
+  opacity: 0.3;
+  padding: 3em;
+  width: 150px;
+  height: 150px;
 }
